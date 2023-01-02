@@ -28,13 +28,7 @@ const state = {
  game : 1, 
 over : 2 
 }
-// possition of Start Button
-const Startbtn ={
-    sX: 120,
-    sY: 263,
-    w:83,
-    h:29,
-}
+
 //control The Game
 canvas.addEventListener("click",function(event){
 
@@ -64,7 +58,13 @@ switch(state.current){
 
 });
 
-
+// possition of Start Button
+const Startbtn ={
+    x: 120,
+    y: 263,
+    w:83,
+    h:29,
+}
  
 // Load all images
 //background
