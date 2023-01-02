@@ -46,7 +46,7 @@ switch(state.current){
                 let clickX =event.clientX - rect.left;
                 let clickY = event.clientY - rect.top;
 
-                if(clickX >= Startbtn.x && clickX <= Startbtn.x+Startbtn.w && clickY >= Startbtn.y && clickY <= Startbtn.y + Startbtn.h){
+                if(clickX >= Startbtn.x && clickX <= Startbtn.x + Startbtn.w && clickY >= Startbtn.y && clickY <= Startbtn.y + Startbtn.h){
                     pipes.reset();
                     bird.speedReset();
                     score.reset();
